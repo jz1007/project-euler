@@ -4,7 +4,7 @@
 
 import numpy as np
 
-z = 1000 ##use 'z' for 'c' in a**2 + b**2 = c**2 ##this is the variable you change
+z = 1000 ##represents your c**2 value ##this is the variable you change
 
 def pythag_finder(c2): 
     c = int(c2**(1/2))
