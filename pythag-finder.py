@@ -1,7 +1,5 @@
 ##allows you to start at a c**2 value and find possible a / b combos. Will generate a 2d array
 
-#pythagorean triplet that equals 1000
-
 import numpy as np
 
 z = 1000 ##represents your c**2 value ##this is the variable you change
