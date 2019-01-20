@@ -4,7 +4,7 @@
 
 import numpy as np
 
-z = input() ##use 'z' for 'c' in a**2 + b**2 = c**2
+z = 1000 ##use 'z' for 'c' in a**2 + b**2 = c**2 ##this is the variable you change
 
 def pythag_finder(c2): 
     c = int(c2**(1/2))
@@ -17,4 +17,5 @@ def pythag_finder(c2):
             else:
                 continue
     print(np.array(pythag_tuples))  #output a multi-dimentional array for easy reading / analysis later
+    
 pythag_finder(z)
